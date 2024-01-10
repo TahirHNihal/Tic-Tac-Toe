@@ -18,8 +18,7 @@ const Square = ({ value, onSquareClick }) => {
   return (
     <>
       <button
-        className={`text-center dark:bg-slate-500/10 h-24 w-24 border border-slate-500 dark:border-slate-200/20 text-6xl
-         text-slate-800 m-1 font-bold ${colorClass}`}
+        className={`text-center dark:bg-slate-500/10 h-24 w-24 border border-slate-500 dark:border-slate-200/20 text-6xl m-1 font-bold ${colorClass}`}
         style={{ textShadow: `-1px 1px 12px ${shadowClass}` }}
         onClick={onSquareClick}
       >
